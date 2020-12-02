@@ -1,85 +1,30 @@
-<!DOCTYPE html>
-<html lang="en">
+    <!doctype html>
+    <html>
+    
+    <head>
+      <meta charset="utf-8">
+      <title>Goedemorgen</title>
+    </head>
+    
+    <body>
+      <h1>Tijd met javaScript</h1>
+      <input type="button" value="druk me daddy" id="mijnButton"/>
+      
+      <script>
+        let mijnButton = document.getElementById 
+        ('mijnButton');
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Javascript Achievements</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
-    <style type="text/css">
-        body {
-            font-family: "Roboto", sans-serif;
-        }
+        mijnButton.addEventListener('click', ()=>{
+          let datum = new Date();//datum is de date
+        window.alert("Mijn naam is Ryan Tilleman. + Ik ben leerling op het Mediacollege" + "\n" + datum);
+       
+       
+       
+         })
 
-        .container {
-            padding: 20px 40px;
-        }
 
-        .big-link {
-            font-size: 1.5em;
-        }
-    </style>
-</head>
-
-<body>
-    <div class="container">
-        <img src="js.png" />
-
-        <h1>Javascript Achievements: Ryan Tilleman</h1>
-
-        <a href="https://trello.com/b/xo5TJzFr/javascript-achievements" target="_blank" class="big-link">Overzicht alle beschikbare
-            opdrachten</a>
-
-        <p>
-            Op deze pagina zet je je naam en je maakt hieronder een overzicht met linkjes naar alle Javascript achievements die je
-            hebt gemaakt.<br />
-            Voor elke achievement maak je een map (zoals de voorbeeld achievement). Ook zet je hieronder in het overzicht een link naar elke achievement map.
-        </p>
-
-        <hr>
-
-        <h2>Les 1: FTP / Filezilla / Ma Cloud hosting</h3>
-        <ul>
-            <li><a href="voorbeeld-achievement/index.html">Voorbeeld achievement</a></li>
-            <li><a href="Turtle/JS-Turtle/Demo.html">Mijn achievement</a></li>
-
-        </ul>
-        <hr>
-        <h2>Les 2: HTML5</h3>
-        <ul>
-            <li>Javascript Achievement</li>
-            <li>Javascript Achievement</li>
-            <li>...</li>
-        </ul>
-        <hr>
-        <h2>Les 3: Les 3 JS Date</h3>
-        <ul>
-            <li>Javascript Achievement</li>
-            <li>Javascript Achievement</li>
-            <li>...</li>
-        </ul>
-        <hr>
-        <h2>Les 4: Document Object Model (DOM)</h3>
-        <ul>
-            <li>Javascript Achievement</li>
-            <li>Javascript Achievement</li>
-            <li>...</li>
-        </ul>
-        <hr>
-        <h2>Les 5: Functions / Events</h3>
-        <ul>
-            <li>Javascript Achievement</li>
-            <li>Javascript Achievement</li>
-            <li>...</li>
-        </ul>
-        <hr>
-        <h2>Les 6: Modulo</h3>
-        <ul>
-            <li>Javascript Achievement</li>
-            <li>Javascript Achievement</li>
-            <li>...</li>
-        </ul>
-    </div>
-</body>
-
-</html>
+      </script>
+    
+  </body>
+    </html>
+  
