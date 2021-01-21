@@ -1,0 +1,38 @@
+<html>
+   
+
+<head></head>
+    
+
+
+<body>
+        <meter id="meter" value="10" min="0" max="10"></meter>      
+        <input type="button" id="button"></input>
+        <h1 id="Einde Game!">..</h1>
+        
+       
+       
+       <script>
+            var meter = document.getElementById("meter");
+            let Einde Game! = document.getElementById("Einde Game!");
+
+            
+            
+            
+            document.getElementById("button").addEventListener("click",(e)=>{
+
+                meter.value -= 1
+                
+                if(meter.value === 0)
+                gameover.innerHTML = "Einde Game!"
+            
+            });       
+       
+       
+       
+       
+       </script>
+   
+</body>
+
+</html>
